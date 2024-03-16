@@ -316,9 +316,9 @@ def joiner(prejoin, join_arg):
   '''
   return join_arg.join(prejoin)
 
-# The ```base_environment``` dictionary defines the initial environment for the 
+# The `base_environment` dictionary defines the initial environment for the 
 #   interpreter. It contains built-in functions and operators like arithmetic
-#   operations, comparison operations, and the ```print``` function.
+#   operations, comparison operations, and the `print` function.
 base_environment = {
     '+': operator.add,
     '-': operator.sub,
@@ -359,7 +359,7 @@ base_environment = {
 
 def main():
   '''
-  The ```main``` function is the entry point of the program. It expects a single 
+  The `main` function is the entry point of the program. It expects a single 
   command-line argument specifying the file to be interpreted. It reads the contents of 
   the file, tokenizes it, parses the tokens, and evaluates the parsed expression in the 
   `base_environment`.
