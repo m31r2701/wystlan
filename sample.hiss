@@ -1,0 +1,15 @@
+(begin 
+  (define url 'https://google.com') 
+  (define result (get url)) ;test comment
+  (print result)
+  (print (contains 'yy' 'x'))
+  (print (join (split 'a b c d e f g' ' ') ' '))
+  (print (if (contains 'yz' 'x') 'true' 'false'))
+  (define my-list [1 2 3 4 5])
+  (print (car my-list))
+  (print (cdr my-list))
+  (print (cons 0 my-list))
+  (print (len my-list))
+  (for i my-list
+    (print (+ i 1)))
+)
